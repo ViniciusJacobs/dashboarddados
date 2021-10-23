@@ -8,19 +8,6 @@
 ### Dashboard Previdência (code).
 
 ``` r
-library(shiny)
-library(shinydashboard)
-#> Warning: package 'shinydashboard' was built under R version 4.1.1
-library(tidyverse)
-library(shinydashboard)
-library(DT)
-library(leaflet)
-library(sf)
-library(viridis)
-library(ps)
-```
-
-``` r
 
 ui <- dashboardPage(
   dashboardHeader(title = "Previdência"),
